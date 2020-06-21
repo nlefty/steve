@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+}
+
+header {
+    background-color: #0f4c5c;
+    color: white;
+    width: 100%;
+    padding: 1em;
+    border-bottom: solid white 10px;
+}
+h1 {
+    font-size: 3em;
+    font-family: 'Lobster Two', cursive;
+     
+    
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: #e0fbfc;
+    
+}
+
+.message {
+    color: #0f4c5c;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 1em;   
+}
+
+
+h4 {
+    font-size: 1.5em;
+    line-height: 2;
+    text-align: center;
+}
+
+h4 i {
+    font-size: .8em;
+    color: #9a031e;
+}
+
+.happy {
+    display: flex;
+    margin-top: 2em;
+    font-family: 'Vast Shadow', cursive;
+    background-color: #9a031e;
+    width: 100%;
+    color: #fff;
+    padding: 1em;
+    border-bottom: solid white 10px;
+    border-top: solid white 10px;
+}
+
+.happy p {
+    font-size: 1.5em;
+}
+
+.attribution {
+    margin-top: 3.3em;
+    font-size: 1em;    
+}
+
